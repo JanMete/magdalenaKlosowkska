@@ -1,20 +1,11 @@
-import ArticleBox from '../../components/articleBox/ArticleBox';
-import { articles } from '../../utils/articles';
+import About from '../../components/about/About';
+import Navigation from '../../components/navigation/Navigation';
 
 const MainPage: React.FC = () => {
   return (
-    <div>
-      {articles.map((article) => {
-        return (
-          <ArticleBox
-            key={article.id}
-            title={article.title}
-            url={article.url}
-            postId={article.postId}
-            additionalUrl={article.additionalUrl}
-          />
-        );
-      })}
+    <div className='flex justify-between'>
+      <Navigation />
+      <About />
     </div>
   );
 };

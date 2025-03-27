@@ -4,7 +4,7 @@ export default {
   theme: {
     extend: {
       colors: {
-        articleBackground: '#e0e494',
+        primaryColor: '#A020F0',
       },
     },
   },
