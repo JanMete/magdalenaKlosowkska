@@ -15,7 +15,6 @@ export default function Navigation() {
                 <ArticleBox
                   key={exhibition.id}
                   title={exhibition.title}
-                  url={exhibition.url}
                   postId={exhibition.postId}
                   additionalUrl={exhibition.additionalUrl}
                 />
@@ -31,9 +30,7 @@ export default function Navigation() {
                 <ArticleBox
                   key={work.id}
                   title={work.title}
-                  url={work.url}
                   postId={work.postId}
-                  additionalUrl={work.additionalUrl}
                 />
               );
             })}
@@ -47,9 +44,7 @@ export default function Navigation() {
                 <ArticleBox
                   key={project.id}
                   title={project.title}
-                  url={project.url}
                   postId={project.postId}
-                  additionalUrl={project.additionalUrl}
                 />
               );
             })}
