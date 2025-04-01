@@ -72,7 +72,7 @@ export default function ArticleBox({
           onClick={closeModal}
         >
           <div
-            className='bg-primaryColor border-2 border-black relative w-11/12  z-50'
+            className='bg-white border-2 border-black relative w-11/12  z-50'
             onClick={(e) => e.stopPropagation()}
           >
             <button

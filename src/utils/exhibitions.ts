@@ -19,8 +19,6 @@ export const exhibitions = [
   {
     id: 4,
     title: 'Drags like Us',
-    additionalUrl:
-      'https://magdaportfolio5.wordpress.com/wp-content/uploads/2025/02/katalog-wystawy-yas-queer.pdf',
     postId: 77,
   },
   {
@@ -37,5 +35,12 @@ export const exhibitions = [
     id: 7,
     title: 'Art for Peace / Sztuka dla Pokoju',
     postId: 92,
+  },
+  {
+    id: 8,
+    title: 'Yas Queer+',
+    additionalUrl:
+      'https://magdaportfolio5.wordpress.com/wp-content/uploads/2025/02/katalog-wystawy-yas-queer.pdf',
+    postId: 131,
   },
 ];
