@@ -1,7 +1,8 @@
 export const exhibitions = [
   {
     id: 1,
-    title: 'Artists and Collectors Alley at Pyrkon 2024',
+    title:
+      'Artists and Collectors Alley at Pyrkon 2024 / Aleja Artystów i Kolekcjonerów Pyrkon 2024',
     postId: 25,
     additionalUrl:
       'https://magdaportfolio5.wordpress.com/wp-content/uploads/2025/02/katalog-pyrkon02.pdf',
@@ -23,18 +24,18 @@ export const exhibitions = [
   },
   {
     id: 5,
-    title: 'Inclusivity / Inkluzywność',
+    title: 'Inclusivity | Inkluzywność',
     postId: 86,
   },
   {
-    id: 6,
-    title: "Well *** It Didn't Work Out / I *** nie wyszło",
-    postId: 106,
+    id: 7,
+    title: 'Art for Peace | Sztuka dla Pokoju',
+    postId: 92,
   },
   {
-    id: 7,
-    title: 'Art for Peace / Sztuka dla Pokoju',
-    postId: 92,
+    id: 6,
+    title: 'Well *** It Didn’t Work Out | I *** nie wyszło',
+    postId: 106,
   },
   {
     id: 8,

@@ -6,7 +6,7 @@ export const projects = [
   },
   {
     id: 2,
-    title: 'Archigrametry Project / Projekt Archigrametria',
+    title: 'Archigrametry Project | Projekt Archigrametria',
     postId: 119,
   },
 ];

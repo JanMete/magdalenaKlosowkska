@@ -6,7 +6,7 @@ export const academicWork = [
   },
   {
     id: 2,
-    title: 'Academic stuff',
+    title: 'Academic activities',
     postId: 122,
   },
 ];
